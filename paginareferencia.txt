@@ -1,0 +1,12 @@
+PYTHON
+https://docs.python.org/release/3.9.6/library/index.html
+GIT
+https://training.github.com/downloads/github-git-cheat-sheet/
+VSCODE
+https://code.visualstudio.com/docs
+CHROME 
+https://chromeenterprise.google/policies/
+FIREFOX 
+https://developer.mozilla.org/en-US/docs/Mozilla/Firefox
+EDGE
+https://learn.microsoft.com/en-us/microsoft-edge/
