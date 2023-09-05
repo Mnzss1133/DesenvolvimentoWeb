@@ -5,15 +5,17 @@ header{
     padding-bottom: 20px;
     padding-top:20px;
     margin-top: 20px;
+    margin-bottom: 40px;
     height: 100px;
     text-align: center;
-    background-image: linear-gradient(to bottom,rgb(39, 2, 2), rgba(202, 147, 147, 0.185));
+    background-image: linear-gradient(to bottom,rgb(138, 4, 4), rgb(32, 1, 1));
     border-radius: 10px;
-    box-shadow: 0px 1px 2px 5px black;
+    box-shadow: 2px 1px 2px 5px black;
+    color:lightgrey;
 }
 
 body{
-    background-color: rgb(196, 86, 86);
+    background-color: rgb(185, 99, 99);
     
 }
 
@@ -21,10 +23,52 @@ p{
     color:rgb(42, 165, 128);
 }
 
+nav{
+    background-color: rgb(119, 24, 7);
+    padding: 10px;
+    box-shadow: 0px 7px 7px black;
+    text-align: center;
+    width: 100px;
+    margin: auto;
+    margin-bottom: 40px;
+    border-radius: 20px;
+    
+}
+nav>a{
+    color: white;
+    padding: 0px;
+    border-radius: 5px;
+    text-decoration: none;
+    
+    font-weight: bold;
+    transition-duration: .5s;
+}
 
-div{
+nav>a:hover{
+    background-color:rgb(153, 144, 238);
+    color: rgb(228, 14, 14);
+    text-decoration: underline;
+    
+}
+
+
+.div{
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     background-color: rgb(82, 6, 19);
+    border-radius: 10px;
+    padding:10px;
+    box-shadow: 0px 7px 7px black;
+    width: 100px;
+    margin-top:40px;
+    margin:auto;
+    color: white;    
     
 }
+
+.div2:hover{
+    margin: auto;
+    background-color: rgb(7, 32, 116);
+}
+
+
