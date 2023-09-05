@@ -19,9 +19,7 @@ body{
     
 }
 
-p{
-    color:rgb(42, 165, 128);
-}
+
 
 nav{
     background-color: rgb(119, 24, 7);
@@ -31,7 +29,9 @@ nav{
     border-radius:10px;
     margin:auto;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
+    font-size: 12px;
+    width: 100px;
     
   
     
@@ -57,25 +57,50 @@ nav>a:hover{
     color: rgb(228, 14, 14);
     text-decoration: underline;
     
-   
-    
+       
     
 }
 
 
+p{
+    margin: 15px 0;
+    text-align: justify;
+    text-indent: 30px ;
+    line-height: 1em;
+}
+
 .div{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
+    font-size: 12px;
     text-align: center;
     background-color: rgb(82, 6, 19);
     border-radius: 10px;
     padding:10px;
     box-shadow: 0px 7px 7px black;
     width: 100px;
-    margin-top:40px;
+    
     margin:auto;
+    margin-top:40px;
+    margin-bottom: 40px;
     color: white;    
     
+}
+main{
+    min-width: 300px;
+    max-width:1000px;
+    padding: 20px;
+    box-shadow: 0px 2px 2px 7px rgba(0, 0, 0, 0.986);
+    margin: auto;
+    margin-bottom: 150px;
+    border-radius: 15px;
+    background-color:rgb(119, 5, 5);
+}
+
+footer{
+    text-align: center;
+    color: white;
+    background-color: rgba(24, 2, 2, 0.562);
 }
 
 
