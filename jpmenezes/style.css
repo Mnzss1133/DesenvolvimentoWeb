@@ -135,14 +135,16 @@ footer{
     justify-content: center;
 }
 
+
+
+.apresentacao{
+    
+    padding-right: 20px;
+    text-align: right;
+}
 .seta{
         
     text-decoration: none;
     color: black;
     
-}
-.apresentacao{
-    
-    padding-right: 20px;
-    text-align: right;
 }
