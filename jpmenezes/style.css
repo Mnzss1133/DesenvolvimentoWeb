@@ -1,4 +1,4 @@
-
+@charset "UTF-8";
 header{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
@@ -19,7 +19,9 @@ body{
     
 }
 
-
+p{
+    text-align: center;
+}
 
 nav{
     background-color: rgb(119, 24, 7);
@@ -62,12 +64,6 @@ nav>a:hover{
 }
 
 
-p{
-    margin: 15px 0;
-    text-align: justify;
-    text-indent: 30px ;
-    line-height: 1em;
-}
 
 .div{
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -96,6 +92,7 @@ main{
     border-radius: 15px;
     background-color:rgb(119, 5, 5);
 }
+
 
 main h1{
     text-align: center;
@@ -136,4 +133,16 @@ footer{
     list-style: none;
     display: flex;
     justify-content: center;
+}
+
+.seta{
+        
+    text-decoration: none;
+    color: black;
+    
+}
+.apresentacao{
+    
+    padding-right: 20px;
+    text-align: right;
 }

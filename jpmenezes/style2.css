@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+header{
+    font-size: 20px;
+    padding-bottom: 20px;
+    padding-top:20px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    height: 100px;
+    text-align: center;
+    color: black;
+    background-image: linear-gradient(to bottom, purple,blue);
+    border-radius:10px;
+    box-shadow: 2px 1px 2px 5px black;
+}
+
+
+body{
+    background-color: lightblue;
+}
+
+
+.div1{
+    
+    margin: auto;
+    text-align:center;
+    border-radius: 10px;
+    width: 150px;
+    box-shadow: 0px 0px 2px 2px black;
+}
+
+.div2{
+    padding-top: 20px ;
+    text-align: center;
+}
