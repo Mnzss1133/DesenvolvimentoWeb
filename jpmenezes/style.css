@@ -87,11 +87,7 @@ nav>a:hover{
     
 }
 
-.favorite{
-
-
-
-    
+.favorite{  
     
     display: block;
     margin: auto;
@@ -108,8 +104,7 @@ nav>a:hover{
 .favoritelink{
    
     
-    text-decoration: none;
-    
+    text-decoration: none;    
     font-size: 12px;
 }
 
