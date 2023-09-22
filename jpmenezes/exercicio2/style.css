@@ -12,7 +12,7 @@ header{
     padding-top:20px;
     margin-top: 20px;
     margin-bottom: 40px;
-    height: 100px;
+    height: 15vh;
     text-align: center;
     background-image: linear-gradient(to bottom,rgb(138, 4, 4), rgb(32, 1, 1));
     border-radius: 10px;
@@ -196,6 +196,8 @@ footer{
     color: black;
     
 }
+
+
 
 /* hidden serve p ocultar informações que não são uteis */
 

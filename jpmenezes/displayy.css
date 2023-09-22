@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+#container{
+
+    display: flex;
+}
+
+#container>div{
+    flex: 1;
+}
+
+#container2{
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 10em 10em;
+    align-items: center;
+    gap: 1em;
+}
+
+/*Posicionamento*/
+/* 
+static = posicionamento padrao
+relative = movimentacao em relacao a posicao padrao 
+(inclusive sobrepondo outros elementos)
+absolute = retira o elemento do fluxo normal e o posiciona relativamente ao documento (ou ao seu elemento pai)
+fixe = retira o elemento do fluxo normal e o posiciona relativamente a viewport */
+
+
+p{
+    background-color: aquamarine;
+    border: 2px solid blue;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+#posicionando{
+    position: relative;
+}

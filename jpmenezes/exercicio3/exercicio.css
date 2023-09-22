@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+
+body{
+    height: 100vh;
+}
+
+#nome{
+    padding:20px;
+    margin: auto;
+    height: 670px;
+    width: 530px;
+    border: 2px solid black;
+    
+}
+h1{
+    text-align: center;
+    color: rgb(199, 29, 162);
+    border-bottom: 5px dotted pink ;
+}
+h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+#contato{
+    
+    text-align: left;
+    margin-left: 2px;
+    height:auto;
+    width: 310px;
+    background-color: lightgray;
+    display: flex ;
+    
+    
+    border: 3px solid rgb(196, 17, 121) ;
+}
+
+#lista{
+    justify-content: center;
+    padding-left: 5px;   
+    list-style: none;
+}
+
+li{
+    padding-bottom: 30px;
+}
