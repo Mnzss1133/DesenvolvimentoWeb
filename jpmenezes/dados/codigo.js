@@ -1,15 +1,40 @@
-const ingrid = atletas[0];
-
-const espaco_nome = document.getElementById("nome");
-const espaco_imagem = document.querySelector('div#container>img');
-const espaco_descricao = document.querySelector('div#container > p ')
-
 const preenche = (atleta) => {
+    const container = document.createElement('div');
+    const titulo = document.createElement('h3');
+    const imagem = document.createElement('img');
+    const descricao = document.createElement('p');
 
 
-    espaco_nome.innerText =  atleta.nome;
-    espaco_imagem.src =  atleta.imagem;
-    espaco_descricao.innerHTML = atleta.descricao;
+    titulo.innerText =  atleta.nome;
+    imagem.src =  atleta.imagem;
+    descricao.innerHTML = atleta.descricao;
+
+    container.appendChild(titulo);
+    container.appendChild(imagem);
+    container.appendChild(descricao);
+
+    document.body.appendChild(container);
 } 
 
-preenche(atletas[1]);
+/*
+atletas.forEach((atleta)=>{
+    preenche(atleta)
+    });
+
+
+let index = 0;
+
+while (index < atletas.length) {
+     preenche(atletas[index]);
+     console.log[index,atletas[index].nome]
+    index++;
+    };
+*/
+ 
+//let index = 0;
+for(let index = 0;index < atletas.length;index++){
+        preenche(atletas[index]);
+        console.log(index,'loop for');
+
+    }
+       
