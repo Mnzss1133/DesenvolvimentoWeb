@@ -70,7 +70,7 @@ while (index < atletas.length) {
 
  }
 
- const filtrar_atletas = (texto) => {
+const filtrar_atletas = (texto) => {
 const lista_filtrada = atletas.filter(
     (e) => {
         const nome = e.nome
