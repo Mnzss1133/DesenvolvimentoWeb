@@ -1,5 +1,5 @@
 const url = "https://botafogo-atletas.mange.li";
-const numero_jogador = 54;
+const numero_jogador =26;
 
 const preenche = (atleta) => {
     const container = document.createElement('div');

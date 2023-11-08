@@ -47,20 +47,7 @@ const preenche = (atleta) => {
    atletas_container.appendChild(container);
 } 
 
-/*
-atletas.forEach((atleta)=>{
-    preenche(atleta)
-    });
 
-
-let index = 0;
-
-while (index < atletas.length) {
-     preenche(atletas[index]);
-     console.log[index,atletas[index].nome]
-    index++;
-    };
-*/
  const criar_atletas = (entrada) => {
     for(let index = 0;index < entrada.length;index++){
         preenche(entrada[index]);
@@ -85,6 +72,5 @@ const lista_filtrada = atletas.filter(
 
     return lista_filtrada;
  }
-//let index = 0;
-//atletas.filter((e) => e.nome.toLowerCase().includes('y')) Pesquisar todos nomes que possuem y no nome
+
 criar_atletas(filtrar_atletas('y')) ;      
